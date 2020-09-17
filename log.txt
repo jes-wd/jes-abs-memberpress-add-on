@@ -1,0 +1,190 @@
+object(MeprSubscription)#3637 (6) {
+  ["statuses"]=>
+  array(4) {
+    [0]=>
+    string(7) "pending"
+    [1]=>
+    string(6) "active"
+    [2]=>
+    string(9) "suspended"
+    [3]=>
+    string(9) "cancelled"
+  }
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(12) "subscription"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(17) "subscription_meta"
+  ["rec":protected]=>
+  object(stdClass)#3635 (32) {
+    ["id"]=>
+    string(1) "2"
+    ["subscr_id"]=>
+    string(20) "mp-sub-5f59fac8cc9eb"
+    ["gateway"]=>
+    string(0) ""
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13761"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["price"]=>
+    string(4) "0.00"
+    ["period"]=>
+    string(1) "1"
+    ["period_type"]=>
+    string(8) "lifetime"
+    ["limit_cycles"]=>
+    string(1) "0"
+    ["limit_cycles_num"]=>
+    string(1) "2"
+    ["limit_cycles_action"]=>
+    string(6) "expire"
+    ["limit_cycles_expires_after"]=>
+    string(1) "1"
+    ["limit_cycles_expires_type"]=>
+    string(4) "days"
+    ["prorated_trial"]=>
+    string(1) "0"
+    ["trial"]=>
+    string(1) "0"
+    ["trial_days"]=>
+    string(1) "0"
+    ["trial_amount"]=>
+    string(4) "0.00"
+    ["status"]=>
+    string(7) "pending"
+    ["created_at"]=>
+    string(19) "2020-09-10 10:07:04"
+    ["total"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["cc_last4"]=>
+    string(0) ""
+    ["cc_exp_month"]=>
+    string(0) ""
+    ["cc_exp_year"]=>
+    string(0) ""
+    ["token"]=>
+    string(0) ""
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    string(0) ""
+  }
+  ["attrs":protected]=>
+  array(29) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(9) "subscr_id"
+    [2]=>
+    string(7) "gateway"
+    [3]=>
+    string(7) "user_id"
+    [4]=>
+    string(10) "product_id"
+    [5]=>
+    string(9) "coupon_id"
+    [6]=>
+    string(5) "price"
+    [7]=>
+    string(6) "period"
+    [8]=>
+    string(11) "period_type"
+    [9]=>
+    string(12) "limit_cycles"
+    [10]=>
+    string(16) "limit_cycles_num"
+    [11]=>
+    string(19) "limit_cycles_action"
+    [12]=>
+    string(26) "limit_cycles_expires_after"
+    [13]=>
+    string(25) "limit_cycles_expires_type"
+    [14]=>
+    string(14) "prorated_trial"
+    [15]=>
+    string(5) "trial"
+    [16]=>
+    string(10) "trial_days"
+    [17]=>
+    string(12) "trial_amount"
+    [18]=>
+    string(6) "status"
+    [19]=>
+    string(10) "created_at"
+    [20]=>
+    string(5) "total"
+    [21]=>
+    string(8) "tax_rate"
+    [22]=>
+    string(10) "tax_amount"
+    [23]=>
+    string(8) "tax_desc"
+    [24]=>
+    string(9) "tax_class"
+    [25]=>
+    string(8) "cc_last4"
+    [26]=>
+    string(12) "cc_exp_month"
+    [27]=>
+    string(11) "cc_exp_year"
+    [28]=>
+    string(5) "token"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+
+
+
+object(MeprUser)#3639 (3) {
+  ["rec":protected]=>
+  object(stdClass)#3641 (14) {
+    ["ID"]=>
+    int(8185)
+    ["first_name"]=>
+    string(5) "Jesse"
+    ["last_name"]=>
+    string(6) "Sugden"
+    ["user_login"]=>
+    string(8) "jesse222"
+    ["user_nicename"]=>
+    string(8) "jesse222"
+    ["user_email"]=>
+    string(22) "jesse.sugden@gmail.com"
+    ["user_url"]=>
+    string(0) ""
+    ["user_message"]=>
+    string(0) ""
+    ["user_registered"]=>
+    string(19) "2020-08-19 07:39:09"
+    ["user_activation_key"]=>
+    string(45) "1597822755:$P$BlYdgfSAz0l/qOLEPuQaKEuUPKwn6j1"
+    ["user_status"]=>
+    string(1) "0"
+    ["signup_notice_sent"]=>
+    string(0) ""
+    ["display_name"]=>
+    string(12) "Jesse Sugden"
+    ["uuid"]=>
+    string(32) "db0e837d8197bcca161671805179ab76"
+  }
+  ["attrs":protected]=>
+  array(0) {
+  }
+  ["defaults":protected]=>
+  NULL
+}
+string(5) "13761"
+testinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestinggggtestingggg
