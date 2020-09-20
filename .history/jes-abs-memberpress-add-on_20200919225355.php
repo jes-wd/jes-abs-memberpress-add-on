@@ -27,7 +27,8 @@ add_action('wp_enqueue_scripts', 'jes_mpress_enqueue_script');
 
 // if loading mpress thank you page, redirect to landing page site's thank you page
 function my_logged_in_redirect() {
-  if ( $_SERVER['REQUEST_URI'] == '/thank-you/' ) {
+  if ( $_SERVER['REQUEST_URI'] == '/thank-you/' ) 
+  {
     wp_redirect( 'https://moon.abasummit.io/thank-you' );
     die;
   }

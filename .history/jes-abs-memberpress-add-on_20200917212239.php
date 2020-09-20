@@ -15,7 +15,7 @@ include( plugin_dir_path( __FILE__ ) . 'includes/subscription-events.php');
 include( plugin_dir_path( __FILE__ ) . 'includes/account-tabs.php');
 
 // Include page templater to load template files
-include( plugin_dir_path( __FILE__ ) . 'includes/page-templater.php');
+// include( plugin_dir_path( __FILE__ ) . 'includes/template-member-registration.php');
 
 // Enqueue scripts and styles
 function jes_mpress_enqueue_script() {
@@ -24,13 +24,3 @@ function jes_mpress_enqueue_script() {
   wp_enqueue_style( 'jes_mpress_styles', plugin_dir_url( __FILE__ ) . 'css/jes-mpress-styles.css' );
 }
 add_action('wp_enqueue_scripts', 'jes_mpress_enqueue_script');
-
-// if loading mpress thank you page, redirect to landing page site's thank you page
-function my_logged_in_redirect() {
-  if ( $_SERVER['REQUEST_URI'] == '/thank-you/' ) {
-    wp_redirect( 'https://moon.abasummit.io/thank-you' );
-    die;
-  }
-   
-}
-add_action( 'template_redirect', 'my_logged_in_redirect' );

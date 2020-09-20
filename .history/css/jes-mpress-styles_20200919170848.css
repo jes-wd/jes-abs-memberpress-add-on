@@ -1,0 +1,85 @@
+.text-center {
+  text-align: center;
+}
+
+.mx-2 {
+  margin: 20px 0;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.jes-announcement {
+  font-size: 1.3em;
+}
+
+.jes-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.jes-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.mepr-signup-form {
+  margin-top: 50px;
+}
+
+.memberpressproduct-template-jes .container {
+  background-color: #443548;
+  padding: 30px;
+}
+
+.mepr-form-input {
+  background: rgba(74,62,70,0.5);
+  color: white;
+}
+
+.mepr-submit {
+  background: linear-gradient(90deg, #9B6A9E 0%, #3B5D95 100%);
+  cursor: pointer;
+  transition: all 0s;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+}
+
+.iti--separate-dial-code {
+  width: 100%;
+}
+
+/* Hide elements */
+#mepr-account-home,
+#mepr-account-logout {
+  display: none;
+}
+
