@@ -46,7 +46,6 @@ function downgrade_user($user) {
   // set default ultimate member subscription type to downgrade to
   $sub_type = "earth_pass";
 
-  // check if user has another subscription active
   if ($user->is_already_subscribed_to('13760') || $user->is_already_subscribed_to('13768')) {
     $sub_type = "moon_pass";
   }

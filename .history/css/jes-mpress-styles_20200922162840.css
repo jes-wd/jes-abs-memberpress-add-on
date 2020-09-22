@@ -48,12 +48,13 @@
   margin-top: 50px;
 }
 
-.memberpressproduct-template-jes .container {
+.memberpressproduct-template-jes .container,
+.mp_wrapper {
   background-color: #443548;
   padding: 30px;
 }
 
-#mepr-account-subscriptions-table {
+.mp_wrapper {
   background-color: #443548;
 }
 
@@ -94,16 +95,4 @@
 
 .mepr-account-terms, .mepr-account-subscr-id, .mepr-account-rebill {
   color: #fff;
-}
-
-.mepr-inactive {
-  color: #e60d0d;
-}
-
-.mp_wrapper table.mepr-account-table td {
-  font-size: 14px;
-}
-
-.mp_wrapper table.mepr-account-table td a {
-  width: 100%;
 }
