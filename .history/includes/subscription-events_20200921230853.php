@@ -10,13 +10,7 @@ function upgrade_user($subscription, $user) {
     case "13760": // check mpress membership id of purchased product
       $sub_type = "moon_pass";
       break;
-    case "13768":
-      $sub_type = "moon_pass";
-      break;
     case "13761" : 
-      $sub_type = "mars_pass";
-      break;
-    case "13767" : 
       $sub_type = "mars_pass";
       break;
   }

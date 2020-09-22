@@ -6,17 +6,11 @@ function upgrade_user($subscription, $user) {
   // set default ultimate member subscription type
   $sub_type = "earth_pass";
   // if user has purchased a moon or mars sub then set um sub type to the one they purchased
-  switch ($subscription->product_id) {
-    case "13760": // check mpress membership id of purchased product
+  switch ($subscription->id) {
+    case "1": // check mpress membership id of purchased product
       $sub_type = "moon_pass";
       break;
-    case "13768":
-      $sub_type = "moon_pass";
-      break;
-    case "13761" : 
-      $sub_type = "mars_pass";
-      break;
-    case "13767" : 
+    case "2" : 
       $sub_type = "mars_pass";
       break;
   }

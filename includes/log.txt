@@ -1,0 +1,958 @@
+---------- likely bug in code, objects printed below ---------------- 
+Time: 2020-09-20 11:26:06am
+object(MeprTransaction)#3625 (5) {
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(11) "transaction"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(16) "transaction_meta"
+  ["rec":protected]=>
+  object(stdClass)#3681 (23) {
+    ["id"]=>
+    string(2) "11"
+    ["amount"]=>
+    string(5) "37.00"
+    ["total"]=>
+    string(5) "37.00"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13760"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["trans_num"]=>
+    string(20) "mp-txn-5f673c36ded2c"
+    ["status"]=>
+    string(8) "complete"
+    ["txn_type"]=>
+    string(7) "payment"
+    ["gateway"]=>
+    string(6) "manual"
+    ["prorated"]=>
+    string(1) "0"
+    ["created_at"]=>
+    string(19) "2020-09-20 11:25:42"
+    ["expires_at"]=>
+    string(19) "2020-12-20 23:59:59"
+    ["subscription_id"]=>
+    string(1) "0"
+    ["corporate_account_id"]=>
+    string(1) "0"
+    ["parent_transaction_id"]=>
+    string(1) "0"
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    NULL
+  }
+  ["attrs":protected]=>
+  array(20) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(6) "amount"
+    [2]=>
+    string(5) "total"
+    [3]=>
+    string(10) "tax_amount"
+    [4]=>
+    string(8) "tax_rate"
+    [5]=>
+    string(8) "tax_desc"
+    [6]=>
+    string(9) "tax_class"
+    [7]=>
+    string(7) "user_id"
+    [8]=>
+    string(10) "product_id"
+    [9]=>
+    string(9) "coupon_id"
+    [10]=>
+    string(9) "trans_num"
+    [11]=>
+    string(6) "status"
+    [12]=>
+    string(8) "txn_type"
+    [13]=>
+    string(7) "gateway"
+    [14]=>
+    string(8) "prorated"
+    [15]=>
+    string(10) "created_at"
+    [16]=>
+    string(10) "expires_at"
+    [17]=>
+    string(15) "subscription_id"
+    [18]=>
+    string(20) "corporate_account_id"
+    [19]=>
+    string(21) "parent_transaction_id"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+
+ 
+object(MeprUser)#3616 (3) {
+  ["rec":protected]=>
+  object(stdClass)#3688 (14) {
+    ["ID"]=>
+    int(8185)
+    ["first_name"]=>
+    string(5) "Jesse"
+    ["last_name"]=>
+    string(6) "Sugden"
+    ["user_login"]=>
+    string(8) "jesse222"
+    ["user_nicename"]=>
+    string(8) "jesse222"
+    ["user_email"]=>
+    string(22) "jesse.sugden@gmail.com"
+    ["user_url"]=>
+    string(0) ""
+    ["user_message"]=>
+    string(0) ""
+    ["user_registered"]=>
+    string(19) "2020-08-19 07:39:09"
+    ["user_activation_key"]=>
+    string(0) ""
+    ["user_status"]=>
+    string(1) "0"
+    ["signup_notice_sent"]=>
+    string(0) ""
+    ["display_name"]=>
+    string(12) "Jesse Sugden"
+    ["uuid"]=>
+    string(32) "db0e837d8197bcca161671805179ab76"
+  }
+  ["attrs":protected]=>
+  array(0) {
+  }
+  ["defaults":protected]=>
+  NULL
+}
+---------- end objects ------------------------------------------- 
+---------- likely bug in code, objects printed below ---------------- 
+Time: 2020-09-20 11:31:59am
+object(MeprTransaction)#3625 (5) {
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(11) "transaction"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(16) "transaction_meta"
+  ["rec":protected]=>
+  object(stdClass)#3681 (23) {
+    ["id"]=>
+    string(2) "12"
+    ["amount"]=>
+    string(5) "37.00"
+    ["total"]=>
+    string(5) "37.00"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13760"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["trans_num"]=>
+    string(20) "mp-txn-5f673d8b81139"
+    ["status"]=>
+    string(8) "complete"
+    ["txn_type"]=>
+    string(7) "payment"
+    ["gateway"]=>
+    string(6) "manual"
+    ["prorated"]=>
+    string(1) "0"
+    ["created_at"]=>
+    string(19) "2020-09-20 11:31:23"
+    ["expires_at"]=>
+    string(19) "2020-12-20 23:59:59"
+    ["subscription_id"]=>
+    string(1) "0"
+    ["corporate_account_id"]=>
+    string(1) "0"
+    ["parent_transaction_id"]=>
+    string(1) "0"
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    NULL
+  }
+  ["attrs":protected]=>
+  array(20) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(6) "amount"
+    [2]=>
+    string(5) "total"
+    [3]=>
+    string(10) "tax_amount"
+    [4]=>
+    string(8) "tax_rate"
+    [5]=>
+    string(8) "tax_desc"
+    [6]=>
+    string(9) "tax_class"
+    [7]=>
+    string(7) "user_id"
+    [8]=>
+    string(10) "product_id"
+    [9]=>
+    string(9) "coupon_id"
+    [10]=>
+    string(9) "trans_num"
+    [11]=>
+    string(6) "status"
+    [12]=>
+    string(8) "txn_type"
+    [13]=>
+    string(7) "gateway"
+    [14]=>
+    string(8) "prorated"
+    [15]=>
+    string(10) "created_at"
+    [16]=>
+    string(10) "expires_at"
+    [17]=>
+    string(15) "subscription_id"
+    [18]=>
+    string(20) "corporate_account_id"
+    [19]=>
+    string(21) "parent_transaction_id"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+
+ 
+object(MeprUser)#3616 (3) {
+  ["rec":protected]=>
+  object(stdClass)#3688 (14) {
+    ["ID"]=>
+    int(8185)
+    ["first_name"]=>
+    string(5) "Jesse"
+    ["last_name"]=>
+    string(6) "Sugden"
+    ["user_login"]=>
+    string(8) "jesse222"
+    ["user_nicename"]=>
+    string(8) "jesse222"
+    ["user_email"]=>
+    string(22) "jesse.sugden@gmail.com"
+    ["user_url"]=>
+    string(0) ""
+    ["user_message"]=>
+    string(0) ""
+    ["user_registered"]=>
+    string(19) "2020-08-19 07:39:09"
+    ["user_activation_key"]=>
+    string(0) ""
+    ["user_status"]=>
+    string(1) "0"
+    ["signup_notice_sent"]=>
+    string(0) ""
+    ["display_name"]=>
+    string(12) "Jesse Sugden"
+    ["uuid"]=>
+    string(32) "db0e837d8197bcca161671805179ab76"
+  }
+  ["attrs":protected]=>
+  array(0) {
+  }
+  ["defaults":protected]=>
+  NULL
+}
+---------- end objects ------------------------------------------- 
+---------- likely bug in code, objects printed below ---------------- 
+Time: 2020-09-20 11:36:39am
+object(MeprTransaction)#3625 (5) {
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(11) "transaction"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(16) "transaction_meta"
+  ["rec":protected]=>
+  object(stdClass)#3681 (23) {
+    ["id"]=>
+    string(2) "14"
+    ["amount"]=>
+    string(5) "37.00"
+    ["total"]=>
+    string(5) "37.00"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13760"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["trans_num"]=>
+    string(20) "mp-txn-5f673eb7e395f"
+    ["status"]=>
+    string(8) "complete"
+    ["txn_type"]=>
+    string(7) "payment"
+    ["gateway"]=>
+    string(6) "manual"
+    ["prorated"]=>
+    string(1) "0"
+    ["created_at"]=>
+    string(19) "2020-09-20 11:36:23"
+    ["expires_at"]=>
+    string(19) "2020-12-20 23:59:59"
+    ["subscription_id"]=>
+    string(1) "0"
+    ["corporate_account_id"]=>
+    string(1) "0"
+    ["parent_transaction_id"]=>
+    string(1) "0"
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    NULL
+  }
+  ["attrs":protected]=>
+  array(20) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(6) "amount"
+    [2]=>
+    string(5) "total"
+    [3]=>
+    string(10) "tax_amount"
+    [4]=>
+    string(8) "tax_rate"
+    [5]=>
+    string(8) "tax_desc"
+    [6]=>
+    string(9) "tax_class"
+    [7]=>
+    string(7) "user_id"
+    [8]=>
+    string(10) "product_id"
+    [9]=>
+    string(9) "coupon_id"
+    [10]=>
+    string(9) "trans_num"
+    [11]=>
+    string(6) "status"
+    [12]=>
+    string(8) "txn_type"
+    [13]=>
+    string(7) "gateway"
+    [14]=>
+    string(8) "prorated"
+    [15]=>
+    string(10) "created_at"
+    [16]=>
+    string(10) "expires_at"
+    [17]=>
+    string(15) "subscription_id"
+    [18]=>
+    string(20) "corporate_account_id"
+    [19]=>
+    string(21) "parent_transaction_id"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+
+ 
+object(MeprUser)#3616 (3) {
+  ["rec":protected]=>
+  object(stdClass)#3688 (14) {
+    ["ID"]=>
+    int(8185)
+    ["first_name"]=>
+    string(5) "Jesse"
+    ["last_name"]=>
+    string(6) "Sugden"
+    ["user_login"]=>
+    string(8) "jesse222"
+    ["user_nicename"]=>
+    string(8) "jesse222"
+    ["user_email"]=>
+    string(22) "jesse.sugden@gmail.com"
+    ["user_url"]=>
+    string(0) ""
+    ["user_message"]=>
+    string(0) ""
+    ["user_registered"]=>
+    string(19) "2020-08-19 07:39:09"
+    ["user_activation_key"]=>
+    string(0) ""
+    ["user_status"]=>
+    string(1) "0"
+    ["signup_notice_sent"]=>
+    string(0) ""
+    ["display_name"]=>
+    string(12) "Jesse Sugden"
+    ["uuid"]=>
+    string(32) "db0e837d8197bcca161671805179ab76"
+  }
+  ["attrs":protected]=>
+  array(0) {
+  }
+  ["defaults":protected]=>
+  NULL
+}
+---------- end objects ------------------------------------------- 
+---------- likely bug in code, objects printed below ---------------- 
+Time: 2020-09-20 11:37:51am
+object(MeprTransaction)#3643 (5) {
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(11) "transaction"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(16) "transaction_meta"
+  ["rec":protected]=>
+  object(stdClass)#3594 (23) {
+    ["id"]=>
+    string(2) "15"
+    ["amount"]=>
+    string(5) "37.00"
+    ["total"]=>
+    string(5) "37.00"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13761"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["trans_num"]=>
+    string(20) "mp-txn-5f673eff2f5ba"
+    ["status"]=>
+    string(8) "complete"
+    ["txn_type"]=>
+    string(7) "payment"
+    ["gateway"]=>
+    string(6) "manual"
+    ["prorated"]=>
+    string(1) "0"
+    ["created_at"]=>
+    string(19) "2020-09-20 11:37:35"
+    ["expires_at"]=>
+    string(19) "0000-00-00 00:00:00"
+    ["subscription_id"]=>
+    string(1) "0"
+    ["corporate_account_id"]=>
+    string(1) "0"
+    ["parent_transaction_id"]=>
+    string(1) "0"
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    NULL
+  }
+  ["attrs":protected]=>
+  array(20) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(6) "amount"
+    [2]=>
+    string(5) "total"
+    [3]=>
+    string(10) "tax_amount"
+    [4]=>
+    string(8) "tax_rate"
+    [5]=>
+    string(8) "tax_desc"
+    [6]=>
+    string(9) "tax_class"
+    [7]=>
+    string(7) "user_id"
+    [8]=>
+    string(10) "product_id"
+    [9]=>
+    string(9) "coupon_id"
+    [10]=>
+    string(9) "trans_num"
+    [11]=>
+    string(6) "status"
+    [12]=>
+    string(8) "txn_type"
+    [13]=>
+    string(7) "gateway"
+    [14]=>
+    string(8) "prorated"
+    [15]=>
+    string(10) "created_at"
+    [16]=>
+    string(10) "expires_at"
+    [17]=>
+    string(15) "subscription_id"
+    [18]=>
+    string(20) "corporate_account_id"
+    [19]=>
+    string(21) "parent_transaction_id"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+
+ 
+object(MeprUser)#3647 (3) {
+  ["rec":protected]=>
+  object(stdClass)#3674 (14) {
+    ["ID"]=>
+    int(8185)
+    ["first_name"]=>
+    string(5) "Jesse"
+    ["last_name"]=>
+    string(6) "Sugden"
+    ["user_login"]=>
+    string(8) "jesse222"
+    ["user_nicename"]=>
+    string(8) "jesse222"
+    ["user_email"]=>
+    string(22) "jesse.sugden@gmail.com"
+    ["user_url"]=>
+    string(0) ""
+    ["user_message"]=>
+    string(0) ""
+    ["user_registered"]=>
+    string(19) "2020-08-19 07:39:09"
+    ["user_activation_key"]=>
+    string(0) ""
+    ["user_status"]=>
+    string(1) "0"
+    ["signup_notice_sent"]=>
+    string(0) ""
+    ["display_name"]=>
+    string(12) "Jesse Sugden"
+    ["uuid"]=>
+    string(32) "db0e837d8197bcca161671805179ab76"
+  }
+  ["attrs":protected]=>
+  array(0) {
+  }
+  ["defaults":protected]=>
+  NULL
+}
+---------- end objects ------------------------------------------- 
+---------- likely bug in code, objects printed below ---------------- 
+Time: 2020-09-20 12:15:08pm
+object(MeprTransaction)#3625 (5) {
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(11) "transaction"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(16) "transaction_meta"
+  ["rec":protected]=>
+  object(stdClass)#3681 (23) {
+    ["id"]=>
+    string(2) "16"
+    ["amount"]=>
+    string(5) "37.00"
+    ["total"]=>
+    string(5) "37.00"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13760"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["trans_num"]=>
+    string(20) "mp-txn-5f6747b50ae4e"
+    ["status"]=>
+    string(8) "complete"
+    ["txn_type"]=>
+    string(7) "payment"
+    ["gateway"]=>
+    string(6) "manual"
+    ["prorated"]=>
+    string(1) "0"
+    ["created_at"]=>
+    string(19) "2020-09-20 12:14:45"
+    ["expires_at"]=>
+    string(19) "2020-12-20 23:59:59"
+    ["subscription_id"]=>
+    string(1) "0"
+    ["corporate_account_id"]=>
+    string(1) "0"
+    ["parent_transaction_id"]=>
+    string(1) "0"
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    NULL
+  }
+  ["attrs":protected]=>
+  array(20) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(6) "amount"
+    [2]=>
+    string(5) "total"
+    [3]=>
+    string(10) "tax_amount"
+    [4]=>
+    string(8) "tax_rate"
+    [5]=>
+    string(8) "tax_desc"
+    [6]=>
+    string(9) "tax_class"
+    [7]=>
+    string(7) "user_id"
+    [8]=>
+    string(10) "product_id"
+    [9]=>
+    string(9) "coupon_id"
+    [10]=>
+    string(9) "trans_num"
+    [11]=>
+    string(6) "status"
+    [12]=>
+    string(8) "txn_type"
+    [13]=>
+    string(7) "gateway"
+    [14]=>
+    string(8) "prorated"
+    [15]=>
+    string(10) "created_at"
+    [16]=>
+    string(10) "expires_at"
+    [17]=>
+    string(15) "subscription_id"
+    [18]=>
+    string(20) "corporate_account_id"
+    [19]=>
+    string(21) "parent_transaction_id"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+
+ 
+object(MeprUser)#3616 (3) {
+  ["rec":protected]=>
+  object(stdClass)#3688 (14) {
+    ["ID"]=>
+    int(8185)
+    ["first_name"]=>
+    string(5) "Jesse"
+    ["last_name"]=>
+    string(6) "Sugden"
+    ["user_login"]=>
+    string(8) "jesse222"
+    ["user_nicename"]=>
+    string(8) "jesse222"
+    ["user_email"]=>
+    string(22) "jesse.sugden@gmail.com"
+    ["user_url"]=>
+    string(0) ""
+    ["user_message"]=>
+    string(0) ""
+    ["user_registered"]=>
+    string(19) "2020-08-19 07:39:09"
+    ["user_activation_key"]=>
+    string(0) ""
+    ["user_status"]=>
+    string(1) "0"
+    ["signup_notice_sent"]=>
+    string(0) ""
+    ["display_name"]=>
+    string(12) "Jesse Sugden"
+    ["uuid"]=>
+    string(32) "db0e837d8197bcca161671805179ab76"
+  }
+  ["attrs":protected]=>
+  array(0) {
+  }
+  ["defaults":protected]=>
+  NULL
+}
+---------- end objects ------------------------------------------- 
+object(MeprTransaction)#3625 (5) {
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(11) "transaction"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(16) "transaction_meta"
+  ["rec":protected]=>
+  object(stdClass)#3681 (23) {
+    ["id"]=>
+    string(2) "17"
+    ["amount"]=>
+    string(5) "37.00"
+    ["total"]=>
+    string(5) "37.00"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13760"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["trans_num"]=>
+    string(20) "mp-txn-5f6748c951cf8"
+    ["status"]=>
+    string(8) "complete"
+    ["txn_type"]=>
+    string(7) "payment"
+    ["gateway"]=>
+    string(6) "manual"
+    ["prorated"]=>
+    string(1) "0"
+    ["created_at"]=>
+    string(19) "2020-09-20 12:19:21"
+    ["expires_at"]=>
+    string(19) "2020-12-20 23:59:59"
+    ["subscription_id"]=>
+    string(1) "0"
+    ["corporate_account_id"]=>
+    string(1) "0"
+    ["parent_transaction_id"]=>
+    string(1) "0"
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    NULL
+  }
+  ["attrs":protected]=>
+  array(20) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(6) "amount"
+    [2]=>
+    string(5) "total"
+    [3]=>
+    string(10) "tax_amount"
+    [4]=>
+    string(8) "tax_rate"
+    [5]=>
+    string(8) "tax_desc"
+    [6]=>
+    string(9) "tax_class"
+    [7]=>
+    string(7) "user_id"
+    [8]=>
+    string(10) "product_id"
+    [9]=>
+    string(9) "coupon_id"
+    [10]=>
+    string(9) "trans_num"
+    [11]=>
+    string(6) "status"
+    [12]=>
+    string(8) "txn_type"
+    [13]=>
+    string(7) "gateway"
+    [14]=>
+    string(8) "prorated"
+    [15]=>
+    string(10) "created_at"
+    [16]=>
+    string(10) "expires_at"
+    [17]=>
+    string(15) "subscription_id"
+    [18]=>
+    string(20) "corporate_account_id"
+    [19]=>
+    string(21) "parent_transaction_id"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+---------- likely bug in code, objects printed below ---------------- 
+Time: 2020-09-20 12:28:17pm
+object(MeprTransaction)#3739 (5) {
+  ["object_type":"MeprBaseMetaModel":private]=>
+  string(11) "transaction"
+  ["meta_table":"MeprBaseMetaModel":private]=>
+  string(16) "transaction_meta"
+  ["rec":protected]=>
+  object(stdClass)#3800 (23) {
+    ["id"]=>
+    string(2) "18"
+    ["amount"]=>
+    string(4) "0.00"
+    ["total"]=>
+    string(4) "0.00"
+    ["tax_amount"]=>
+    string(4) "0.00"
+    ["tax_rate"]=>
+    string(5) "0.000"
+    ["tax_desc"]=>
+    string(0) ""
+    ["tax_class"]=>
+    string(8) "standard"
+    ["user_id"]=>
+    string(4) "8185"
+    ["product_id"]=>
+    string(5) "13760"
+    ["coupon_id"]=>
+    string(1) "0"
+    ["trans_num"]=>
+    string(20) "mp-txn-5f674ad175934"
+    ["status"]=>
+    string(8) "complete"
+    ["txn_type"]=>
+    string(7) "payment"
+    ["gateway"]=>
+    string(6) "manual"
+    ["prorated"]=>
+    string(1) "0"
+    ["created_at"]=>
+    string(19) "2020-09-20 12:28:01"
+    ["expires_at"]=>
+    string(19) "2020-12-20 23:59:59"
+    ["subscription_id"]=>
+    string(1) "0"
+    ["corporate_account_id"]=>
+    string(1) "0"
+    ["parent_transaction_id"]=>
+    string(1) "0"
+    ["tax_compound"]=>
+    string(1) "0"
+    ["tax_shipping"]=>
+    string(1) "1"
+    ["response"]=>
+    NULL
+  }
+  ["attrs":protected]=>
+  array(20) {
+    [0]=>
+    string(2) "id"
+    [1]=>
+    string(6) "amount"
+    [2]=>
+    string(5) "total"
+    [3]=>
+    string(10) "tax_amount"
+    [4]=>
+    string(8) "tax_rate"
+    [5]=>
+    string(8) "tax_desc"
+    [6]=>
+    string(9) "tax_class"
+    [7]=>
+    string(7) "user_id"
+    [8]=>
+    string(10) "product_id"
+    [9]=>
+    string(9) "coupon_id"
+    [10]=>
+    string(9) "trans_num"
+    [11]=>
+    string(6) "status"
+    [12]=>
+    string(8) "txn_type"
+    [13]=>
+    string(7) "gateway"
+    [14]=>
+    string(8) "prorated"
+    [15]=>
+    string(10) "created_at"
+    [16]=>
+    string(10) "expires_at"
+    [17]=>
+    string(15) "subscription_id"
+    [18]=>
+    string(20) "corporate_account_id"
+    [19]=>
+    string(21) "parent_transaction_id"
+  }
+  ["defaults":protected]=>
+  NULL
+}
+
+ 
+object(MeprUser)#3734 (3) {
+  ["rec":protected]=>
+  object(stdClass)#3807 (14) {
+    ["ID"]=>
+    int(8185)
+    ["first_name"]=>
+    string(5) "Jesse"
+    ["last_name"]=>
+    string(6) "Sugden"
+    ["user_login"]=>
+    string(8) "jesse222"
+    ["user_nicename"]=>
+    string(8) "jesse222"
+    ["user_email"]=>
+    string(22) "jesse.sugden@gmail.com"
+    ["user_url"]=>
+    string(0) ""
+    ["user_message"]=>
+    string(0) ""
+    ["user_registered"]=>
+    string(19) "2020-08-19 07:39:09"
+    ["user_activation_key"]=>
+    string(0) ""
+    ["user_status"]=>
+    string(1) "0"
+    ["signup_notice_sent"]=>
+    string(0) ""
+    ["display_name"]=>
+    string(12) "Jesse Sugden"
+    ["uuid"]=>
+    string(32) "db0e837d8197bcca161671805179ab76"
+  }
+  ["attrs":protected]=>
+  array(0) {
+  }
+  ["defaults":protected]=>
+  NULL
+}
+---------- end objects ------------------------------------------- 

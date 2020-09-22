@@ -6,17 +6,11 @@ function upgrade_user($subscription, $user) {
   // set default ultimate member subscription type
   $sub_type = "earth_pass";
   // if user has purchased a moon or mars sub then set um sub type to the one they purchased
-  switch ($subscription->product_id) {
-    case "13760": // check mpress membership id of purchased product
+  switch ($subscription->id) {
+    case 1: // check mpress membership id of purchased product
       $sub_type = "moon_pass";
       break;
-    case "13768":
-      $sub_type = "moon_pass";
-      break;
-    case "13761" : 
-      $sub_type = "mars_pass";
-      break;
-    case "13767" : 
+    case 2 : 
       $sub_type = "mars_pass";
       break;
   }
@@ -27,9 +21,9 @@ function upgrade_user($subscription, $user) {
   // if $sub_type is still earth pass, then it's most likely not working properly
   // -so output the objects to the log file
   if ($sub_type == "earth_pass") {
-    date_default_timezone_set("Taipei/Taiwan");
     ob_start();
     echo "---------- likely bug in code, objects printed below ---------------- \n";
+    date_default_timezone_set("Taipei/Taiwan");
     echo "Time: " . date("Y-m-d h:i:sa") . "\n";
     var_dump($subscription);
     echo "\n \n";
