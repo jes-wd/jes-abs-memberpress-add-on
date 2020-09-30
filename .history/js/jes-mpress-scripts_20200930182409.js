@@ -23,22 +23,26 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Get parameters from the current URL
     const params = getParams(window.location.href);
+
     // console.log(params['mepr-address-country']);
     // console.log(countries);
+
     // Get country name from url param
     var countryName = params['mepr-address-country'];
+
     // iterate over each element in the array
     for (var i = 0; i < countries.length; i++){
       // look for the entry with a matching `name` value
       if (countries[i].name == countryName){
-        // console.log(countries[i].code);
+        console.log(countries[i].code);
         // select the country if there is a match
         document.getElementById('mepr-address-country1').value = countries[i].code;
       }
     }
-  
-    // mpress add pw strength details  =======================================================
     var passwordStrengthMsg = document.querySelector('.mp-password-strength-area span em');
+    console.log(passwordStrengthMsg);
+    
+    // mpress add pw strength details  =======================================================
     function insertAfter(referenceNode, newNode) {
       referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
     }

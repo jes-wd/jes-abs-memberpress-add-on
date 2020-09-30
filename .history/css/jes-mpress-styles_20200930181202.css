@@ -112,10 +112,6 @@
   background-color: #ae1a1e !important;
 }
 
-.mepr-submit:disabled {
-  opacity: 0.6;
-}
-
-.jes-cc-error {
-  color: #eb1c26;
+.mepr-submi:disabled {
+  opacity: 0.5;
 }

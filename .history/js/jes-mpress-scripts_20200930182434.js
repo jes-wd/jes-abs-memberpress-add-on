@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     for (var i = 0; i < countries.length; i++){
       // look for the entry with a matching `name` value
       if (countries[i].name == countryName){
-        // console.log(countries[i].code);
+        console.log(countries[i].code);
         // select the country if there is a match
         document.getElementById('mepr-address-country1').value = countries[i].code;
       }

@@ -113,9 +113,5 @@
 }
 
 .mepr-submit:disabled {
-  opacity: 0.6;
-}
-
-.jes-cc-error {
-  color: #eb1c26;
+  opacity: 0.5;
 }
